@@ -6,6 +6,7 @@ import java.awt.Rectangle;
 import java.awt.image.BufferedImage;
 
 import Input.KeyInput;
+import Sound.SoundHandler;
 import SpriteTools.BufferedImageLoader;
 import SpriteTools.SpriteSheet;
 
@@ -28,11 +29,13 @@ public class Player extends GameObject {
 		
 	}
 
+
 	@Override
 	public void tick() {
 		
 		x+=VelX;
 		y+=VelY;
+		
 		
 		
 		
